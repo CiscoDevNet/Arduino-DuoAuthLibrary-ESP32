@@ -52,7 +52,7 @@ This library abstracts most of the [Duo Auth API](https://duo.com/docs/authapi) 
 
 **Tools & Frameworks:**
 
-- Arduino IDE (*Tested on v1.8.12*)
+- Arduino IDE (*Tested on v1.8.12*) or PlatformIO for VSCode IDE
 - [Arduino Core for the ESP32](https://github.com/espressif/arduino-esp32)
 - [ArduinoJson Library for Arduino and IoT Devices](https://github.com/bblanchon/ArduinoJson)
 
@@ -74,12 +74,20 @@ This library abstracts most of the [Duo Auth API](https://duo.com/docs/authapi) 
 	- Etc..
 
 ## Installation
+
+#### Arduino IDE
 *Note: This document assumes that your Arduino IDE is already setup and configured for Espressif's ESP32 Micro Controllers (Arduino Core for the ESP32)*
 
 - To install the Duo Authentication Library in your Arduino IDE, follow the instructions below:
 	- Browse to the Duo Authentication Library Releases GitHub Page
 	- Download Latest Duo Authentication Library package version (Choose ZIP Package)
 	- Follow the **"Installing Additional Arduino Libraries"** documentation at [Arduino's Library Documentation Site](https://www.arduino.cc/en/guide/libraries)
+
+#### PlatformIO for VSCode IDE
+- To install the Duo Authentication Library in your PlatformIO for VSCode IDE, follow the instructions below:
+	- Open VSCode PlatformIO Core CLI
+	- Execute the following installation command
+		- `pio lib install https://github.com/CiscoDevNet/Arduino-DuoAuthLibrary-ESP32/archive/v1.0.0.zip`
 
 ## Library Usage
 
